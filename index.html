@@ -461,8 +461,60 @@
     </footer>
     <div class="backdrop is-open" >
       <div class="modal">
-        <div class="modal-button" type="button"></div>
+        <button class="modal-button" type="button"">
+          <svg class="modal-button-icon" width="8" height="8">
+              <use href="./images#">
+
+              </use>
+          </svg>
+        </button>
       </div>
+      <p class="modal-paragraf">Leave your contacts and we will call you back</p>
+      <form action="">
+        <div class="modal-form">
+          <label class="modal-marker" for="user-name" name=""></label>
+          <div class="modal-input-icon">
+            <input class="modal-input" id="user-name" name="user-name" type="text">
+            <svgv class="modal-input-icon-icon" width="18" heigh="24">
+              <use href=" ./images#"></use>
+            </svgv>
+          </div>
+        </div>
+        <div clas="modal-form">
+          <label class="modal-marker" for="user-name">Phone</label>
+          <div class="modal-input-icon">
+            <input class="modal-input" id="user-name" name="user-name" type="text">
+            <svg class="modal-input-icon-icon" width="18" heigh="24">
+              <use href="./images#"></use>
+            </svg>
+          </div>
+        </div>
+        <div clas="modal-form">
+          <label class="modal-marker" for="user-name">Email</label>
+          <div class="modal-input-icon">
+            <input class="modal-input" id="user-name" name="user-name" type="text">
+            <svg class="modal-input-icon-icon" width="18" heigh="24">
+              <use href="./images#"></use>
+            </svg>
+          </div>
+        </div>
+        <div clas="modal-form-comment">
+          <label class="modal-marker" for="user-comment">Comment</label>
+          <textarea class="modal-input-textarea"  id="user-comment"  name="user-comment" placeholder="Text input">
+          </textarea>
+        </div>
+        <div class="model-checkbox-container">
+          <input class="model-checkbox  visually-hidden" type="text"  id="user-privacy" type="checkbox"  value="true"  name="user-privacy">
+          <label class="model-checkbox-marker" for="user-privacy"> I accept the terms and conditions of the 
+            <span class="model-checkbox-container-span">
+              <svg class="model-checkbox-container-span-icon" width="10" height="8">
+                <use href="./images#"></use>
+              </svg>
+            </span>
+          </label>
+        </div>
+        <button class="button-send"></button>
+      </form>
     </div>
     
   </body>
