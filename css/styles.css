@@ -447,6 +447,10 @@ img {
   border-radius: 4px;
   color: #ffffff;
 }
+.footer-input.footer-input::placeholder {
+  color: #ffffff;
+}
+
 .footer-button {
   min-width: 165px;
   height: 40px;
